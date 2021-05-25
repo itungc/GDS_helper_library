@@ -104,7 +104,6 @@ def focused_idt(fw, frequency, wavelength, periods, angle, surface_velocity, dis
 
     return idt
 
-
 cell = focused_idt(fw=1, frequency=1, wavelength=4, periods=42, angle=30, surface_velocity=1,
                    distance_to_idt=30, finger_layer=1, pad_layer=2, align_layer=3, origin=(0, 0),label="A1")
 cell.save("sIDT.gds")
