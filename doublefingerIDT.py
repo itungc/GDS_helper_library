@@ -73,7 +73,6 @@ def double_finger_idt(fw, frequency, wavelength, periods, height, surface_veloci
 
     return idt
 
-
 cell = double_finger_idt(fw=1, frequency=1,wavelength=4, periods=48, height=20, surface_velocity=1,
                          offset=1, layer=1, coords=(1,1))
 cell.save("dfIDT.gds")
