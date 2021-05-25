@@ -1,3 +1,4 @@
+# single finger non-focused IDTS with pads set to create standing wave
 def single_finger_idt_sw(fw, frequency, wavelength, periods, height, surface_velocity, offset,
                          finger_layer, pad_layer, align_layer, coords, label):
     # fw should be entered as 0 for f or 1 for w, depending on whether you would like to specify wavelength or frequency
